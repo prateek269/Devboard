@@ -1,6 +1,6 @@
 # Goal: build the imge for devboard frontend push to docker hub
-name: ci
-  on:
+name: CI
+on:
     push:
       branches: [master]
     jobs:
