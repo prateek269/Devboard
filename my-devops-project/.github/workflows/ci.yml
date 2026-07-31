@@ -1,0 +1,16 @@
+name: my devops ci
+on:
+  push:
+    branches:
+      _main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+  steps:
+    - name: checkout code 
+      uses: actions/chenkout@v4
+    - name: print massage 
+      run: echo "Hello, World!"
+       
